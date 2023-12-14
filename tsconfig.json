@@ -1,6 +1,6 @@
 {
   "typeRoots": ["./node_modules/@types", "./@types"],
-  "types": ["node", "express"],
+  "types": ["node"],
   "include": [
     "src/**/*.ts", // or wherever your source files are
     "src/types.d.ts" // or wherever you placed your types.d.ts or express.d.ts

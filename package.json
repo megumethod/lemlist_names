@@ -6,12 +6,11 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "devDependencies": {
+    "@types/inquirer": "^8.0.0",
     "@types/node": "^20.8.9",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
@@ -29,7 +28,7 @@
   },
   "dependencies": {
     "csv-parse": "^5.5.2",
-    "vokativ": "^1.0.1",
-    "vokativ-js": "^3.2.4"
+    "inquirer": "^8.0.0",
+    "vokativ": "^1.0.1"
   }
 }
